@@ -3,7 +3,8 @@
 ## Project: Models
 ### Author: AbdallahMosa
 
-### [PR](https://github.com/AbdallahMosa/django-models/pull/1)
+### [PR1](https://github.com/AbdallahMosa/django-models/pull/1)
+### [PR2](https://github.com/AbdallahMosa/django-models/pull/2)
 ##  create django aproject
 - ```django-admin startproject project-name . ```
 ## run the server
