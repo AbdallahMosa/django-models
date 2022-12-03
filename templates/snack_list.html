@@ -5,5 +5,7 @@
         <h1>Snacks</h1>
         {% for snacks in object_list %}
             <h2>{{snacks.name}}</h2>
+            <button><a href="{% url 'detail' snacks.id%}">details</a></button>
+            <button ><a href="{% url 'home'%}">home</a></button>
         {% endfor %}
     {% endblock content%}

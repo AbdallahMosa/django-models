@@ -18,3 +18,4 @@ class SnacksTitsing(TestCase):
     def test_temp_snack_list(self):
         response = self.client.get(reverse('snacks'))
         self.assertTemplateUsed(response,"snack_list.html")
+    
